@@ -20,28 +20,12 @@ body {
     height: auto;
   }
 
-  .line3 {
-    display: inline-block;
-    background-color:  rgb(34, 172, 184);
-    margin: 0 68px;
-    width: 1px;
-    height: 135px;
-  }
-
-  .line2 {
-    display: inline-block;
-    background-color:  rgb(34, 172, 184);
-    margin: 0 68px;
-    width: 1px;
-    height: 680px;
-  }
-
-  .line1 {
-    display: inline-block;
-    background-color:  rgb(34, 172, 184);
-    margin: 0 68px;
-    width: 1px;
-    height: 60px;
+  .line {
+    background-color: rgb(34, 172, 184);
+    width: 0.05rem;
+    height: 100%;
+    margin-left: 50%;
+    margin-right: 50%;
   }
   
   h2,
