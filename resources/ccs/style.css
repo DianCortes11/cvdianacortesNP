@@ -13,19 +13,24 @@ body {
   }
   
   .analogy {
+    position: relative;
   }
   
   img {
+    background-color:#fff;
     width: 100%;
     height: auto;
   }
 
   .line {
-    background-color: rgb(34, 172, 184);
-    width: 0.05rem;
-    height: 100%;
+    border-left: 1px dotted rgb(34, 172, 184);
+    position: absolute;
     margin-left: 50%;
     margin-right: 50%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: -5;
   }
   
   h2,
